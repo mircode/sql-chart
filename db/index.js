@@ -14,6 +14,7 @@ var server={
 			  next();
 		});
 		
+		this.app.use(express.static(__dirname+'/../app/'));
 		
 		log.info('[CONFIG] Access Control ....');
 		return this;
