@@ -1,26 +1,28 @@
-# SQL-Chart ¼òµ¥BI¹¤¾ß
+# SQL-Chart ç®€å•BIå·¥å…·
 
 
+## ä¸€ã€ç®€ä»‹
+SQL-Chartï¼Œç®€å•BIå·¥å…·ï¼Œæ‰§è¡ŒSQLã€‚ç„¶åå°†æŸ¥è¯¢ç»“æœï¼Œè¿›è¡Œå›¾æ ‡å’Œè¡¨æ ¼å±•ç¤ºã€‚ç°æ”¯æŒDruidå’ŒMySQLï¼Œä½†æ˜¯å¯ä»¥é€šè¿‡å¼€å‘æ’ä»¶ï¼Œæ”¯æŒå¤šç§å½¢å¼çš„æ•°æ®æºã€‚ç®€å•å®ç”¨ã€‚
 
-## Ò»¡¢¼ò½é
-SQL-Chart£¬¼òµ¥BI¹¤¾ß£¬Ö´ĞĞSQL¡£È»ºó½«²éÑ¯½á¹û£¬½øĞĞÍ¼±êºÍ±í¸ñÕ¹Ê¾¡£ÏÖÖ§³ÖDruidºÍMySQL£¬µ«ÊÇ¿ÉÒÔÍ¨¹ı¿ª·¢²å¼ş£¬Ö§³Ö¶àÖÖĞÎÊ½µÄÊı¾İÔ´¡£¼òµ¥ÊµÓÃ¡£
+![index][1]
 
-## ¶ş¡¢ÔËĞĞ
-### 1¡¢Æô¶¯Server
-#### demo Êı¾İ
+## äºŒã€è¿è¡Œ
+### 1ã€å¯åŠ¨Server
+#### demo æ•°æ®
 ```node index.js```
-#### mysql Êı¾İ
+#### mysql æ•°æ®
 ```node index.js mysql```
-#### druid Êı¾İÔ´
+#### druid æ•°æ®æº
 ```node index.js druid```
-
-### 2¡¢·ÃÎÊ
+![start][2]
+### 2ã€è®¿é—®
 ```
 http://localhost:9090/index.html
 ```
 
-## Èı¡¢¿ª·¢
-### 1¡¢MySQLÊı¾İÔ´
+## ä¸‰ã€å¼€å‘
+![db][3]
+### 1ã€MySQLæ•°æ®æº
 `server.js`
 ```
 var Q=require('q');
@@ -90,4 +92,6 @@ module.exports=DBase;
 ```
 
 
-
+  [1]: https://raw.githubusercontent.com/mircode/sql-chart/master/doc/imgs/index.gif
+  [2]: https://raw.githubusercontent.com/mircode/sql-chart/master/doc/imgs/start.png
+  [3]: https://raw.githubusercontent.com/mircode/sql-chart/master/doc/imgs/db.png
