@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Druid SQL</title>
+		<!--zui-->
+		<link rel="stylesheet" href="./lib/zui/css/zui.css"/>
+		<link rel="stylesheet" href="./lib/zui/css/zui.datatable.css" />
+		<!--codemirror-->
+		<link rel="stylesheet" href="./lib/editor/css/codemirror.css" />
+		<!--main-->
+		<link rel="stylesheet" href="./css/main.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse no-radius" role="navigation">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#"><i class="icon icon-leaf"></i>  Druid SQL</a>
+		    </div>
+		    <div class="collapse navbar-collapse navbar-collapse-example">
+		        <ul class="nav navbar-nav pull-right">
+		          <li><a href="#" data-role="run"><i class="icon icon-play"></i></a></li>		          
+		          <li><a href="#" data-role="save"><i class="icon icon-save"></i></a></li>
+		          <li class="fold"><a href="#" data-role="fold"><i class="icon icon icon-list"></i></a></li>
+		          <li><a href="#" data-role="refresh"><i class="icon icon-refresh"></i></a></li>
+		        </ul>
+		      </div>
+		  </div>
+		</nav>
+		<div class="container-fluid">
+		  	<div class="row">
+			  <div class="editor col-md-4">
+			  	<div class="editor-code">
+			  		<textarea data-role="code" class="hide"></textarea>
+			  	</div>
+			  </div>
+			  <div class="content col-md-8">
+			  		<div class="datachart">
+			  		</div>
+				  	<div class="datatable" data-sortable="true"></div>
+				</div>
+			</div>
+		</div>
+		
+		<!--jquery-->
+		<script src="./lib/jquery/js/jquery.js"></script>
+		
+		<!--zui-->
+		<script src="./lib/zui/js/zui.js"></script>
+		<script src="./lib/zui/js/zui.chart.js"></script>
+		<script src="./lib/zui/js/zui.datatable.js"></script>
+		
+		<!--codemirror-->
+		<script src="./lib/editor/js/codemirror.js"></script>
+		<script src="./lib/editor/js/matchbrackets.js"></script>
+		<script src="./lib/editor/js/active-line.js"></script>
+		<script src="./lib/editor/js/sqlmode.js"></script>
+    	
+    	<!--main-->
+		<script src="./js/main.js"></script>
+		
+	</body>
+</html>

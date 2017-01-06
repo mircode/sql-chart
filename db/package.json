@@ -1,0 +1,21 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "weiguoxing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "chronoshift": "^0.6.6",
+    "log4js": "^1.1.0",
+    "mysql": "^2.12.0",
+    "plywood": "^0.15.9",
+    "plywood-druid-requester": "^1.5.9",
+    "q": "^1.4.1"
+  }
+}
